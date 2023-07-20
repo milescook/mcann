@@ -1,0 +1,54 @@
+dateModified: 1689757145
+email:
+  fromEmail: miles@cookieonline.net
+  fromName: 'McCann Test'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    4b93c072-1c61-4fb7-889a-176519081443: 'Post Content' # Post Content
+    9a315590-a4e3-4e25-95a4-884b2baaf0b4: Images # Images
+    75c50b20-61c1-4632-b627-9f4665d9c6bb: 'McCann Test' # McCann Test
+    232f7c4d-c53f-4a34-afb3-b01089518cdd: Text # Text
+    285dcfdc-4f9f-4169-b4db-e3d3ee822f79: 'Public Schema' # Public Schema
+    532da499-34c2-4cb1-ae2b-fc19812e671b: 'Feature Image' # Feature Image
+    2562c4d8-3104-460d-bb13-2d88a60cebe9: 'McCann Test' # McCann Test
+    3557c20c-3f41-4610-810c-0837f6b22d5a: Summary # Summary
+    6685a9ec-9ea6-47c3-b853-29ee47ea1c87: Blog # Blog
+    a0970adf-0ad6-40b9-aa34-6ef0ef56ce76: Image # Image
+    bcf1c009-ba70-4ec8-9315-fd8bf74fe9c3: Topics # Topics
+    be9899d1-1c95-4fd7-8712-1ebe6df1b772: Blog # Blog
+    cea32a1d-9694-45f8-9495-23be89d14a62: 'Post Categories' # Post Categories
+    d77a3a33-cb7c-494d-92bc-657fa63da09a: Post # Post
+    d650fb0a-8878-40c8-a81f-b00808880cfb: Text # Text
+    e3d015d6-22ff-4262-a346-4063301f337b: Common # Common
+plugins:
+  _miles-plugin:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'McCann Test'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  fieldLayouts:
+    9ad1c4a2-20d1-4e97-aea5-ec2485bdc098: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

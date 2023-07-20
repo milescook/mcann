@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'McCann Test'
+primary: true
+siteGroup: 75c50b20-61c1-4632-b627-9f4665d9c6bb # McCann Test
+sortOrder: 1

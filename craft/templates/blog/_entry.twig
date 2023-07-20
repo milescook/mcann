@@ -1,0 +1,21 @@
+{% extends '_layout' %}
+
+{# Load the attached image: #}
+{% set featureImage = entry.featureImage.one() %}
+
+{% block content %}
+  {# Access a property of a variable using “dot” notation: #}
+  <h1>{{ entry.title }}</h1>
+
+  <time datetime="{{ entry.postDate | atom }}">
+    {{ entry.postDate | date }}
+  </time>
+
+    {# Output the image, if one was found: #}
+  
+    <div class="feature-image">
+      {{ featureImage.getImg() }}
+    </div>
+  
+  
+{% endblock %}
